@@ -97,10 +97,10 @@ const sr = ScrollReveal({
 
 });
 
-sr.reveal(".home__data,.security__data", { delay: 400, origin: "left" });
-sr.reveal(".about__data,.app__data", { delay: 400, origin: "right" });
-sr.reveal(".contact__content", { delay: 400, origin: "left" });
-sr.reveal(".services__data", { delay: 100, origin: "right", interval: 300 });
-sr.reveal(".footer__content", { delay: 100, origin: "left", interval: 300 });
+sr.reveal(".home__data,.security__data", { delay: 300, origin: "left" });
+sr.reveal(".about__data,.app__data", { delay: 300, origin: "right" });
+sr.reveal(".contact__content", { delay: 300, origin: "left" });
+sr.reveal(".services__data", { delay: 300, origin: "right", interval: 300 });
+sr.reveal(".footer__content", { delay: 300, origin: "left", interval: 300 });
 sr.reveal(".footer__copy", { delay: 300, origin: "bottom", interval: 300 });
 
