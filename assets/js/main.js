@@ -90,7 +90,7 @@ themeButton.addEventListener('click', () => {
 /*=============== Animation ===============*/
 
 const sr = ScrollReveal({
-    distance: "200px",
+    distance: "30px",
     duration: 2000,
     delay: 200,
     reset: false,
@@ -99,8 +99,9 @@ const sr = ScrollReveal({
 
 sr.reveal(".home__data,.security__data", { delay: 300, origin: "left" });
 sr.reveal(".about__data,.app__data", { delay: 300, origin: "right" });
-sr.reveal(".contact__content", { delay: 300, origin: "left" });
-sr.reveal(".services__data", { delay: 300, origin: "right", interval: 300 });
+sr.reveal(".contact__content", { delay: 300, origin: "top" });
+sr.reveal(".services__data", { delay: 300, origin: "top", interval: 200 });
+sr.reveal(".services__data", { delay: 300, origin: "right", interval: 200, mobile: false });
 sr.reveal(".footer__content", { delay: 300, origin: "left", interval: 300 });
-sr.reveal(".footer__copy", { delay: 300, origin: "bottom", interval: 300 });
+sr.reveal(".footer__copy", { delay: 300, origin: "top", interval: 300 });
 
