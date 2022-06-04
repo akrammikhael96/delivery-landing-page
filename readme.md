@@ -1,7 +1,7 @@
 
 # Delivery 
 
-Delivery responsive landing page.
+Animated Delivery responsive landing page.
 
 
 ## Demo
